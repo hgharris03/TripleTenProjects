@@ -2,9 +2,9 @@
 
 This is a repository highlighting some data science projects. The projects were completed as part of the data science curriculum focusing on many machine learning concepts. The projects were completed in Jupyter Notebook. 
 
-## [Computer Vision](https://github.com/hgharris03/TripleTenProjects/blob/main/Computer%20Vision.ipynb)
+## [Computer Vision](https://github.com/hgharris03/TripleTenProjects/tree/main/Computer%20Vision)
 - The objective was to predict the age of customers buying alcohol from a store to determine if customers are old enough. TensorFlow was used for the modeling. Mean absolute error was the metric used to measure the accuracy of the models. The training of the model resulted in a test MAE of 6.85.
-## [Numerical Methods](https://github.com/hgharris03/TripleTenProjects/blob/main/Numerical%20methods.ipynb)
+## [Numerical Methods]((https://github.com/hgharris03/TripleTenProjects/tree/main/Numerical%20Methods))
 - The objective was to build a model for a car sales company. The important attributes considered were the quality of the predictions, the speed of the prediction, and the time required for training. I used scikit learn libraries to preprocess the dataset. I compared random forest, linear regression, LightGBM, and CatBoost. The metric for comparison was mean-squared error. In conclusion, the time to train and predict for the random forest model was 1 min 12s, linear regression was 21s, LGB model was 10.7s, and catboost was 49.7s. Once the hyperameters were set the LGB model had a faster run time. However, the CatBoost model had a slightly lower MSE score. Overall, I would recommend LGB to be the better model because it is the fastest model to fit and predict the data, and the error is not compromised by the speed.
 ## [SDA project](https://github.com/hgharris03/TripleTenProjects/blob/main/SDA%20project.ipynb)
 - Two mobile plans were analyzed to determine which plan brought in more revenue. This type of analysis is essential to marketing teams to drive where advertising investments should be made. Matplotlib was used for data visualization, and scipy.stats was used to execute a t-test to determine statistically significant differences between the plans. I was able to show that the ultimate plan had higher revenue than the surf plan with a confidence level of 95%.
